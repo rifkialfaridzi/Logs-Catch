@@ -1,0 +1,40 @@
+[INFO] 2/10/18 1:52 PM:15.379 Completed Locating & Printing (#1) : [Butterfly-Brown.eps]
+[INFO] 2/10/18 1:52 PM:15.488 Started Locating & Printing (#2) : [Butterfly-Brown.eps]
+[INFO] 2/10/18 1:58 PM:24.818 Waiting for print to finish (#2) : [Butterfly-Brown.eps]
+[INFO] 2/10/18 1:59 PM:12.991 Completed Locating & Printing (#2) : [Butterfly-Brown.eps]
+[INFO] 2/10/18 1:59 PM:13.038 Started Locating & Printing (#3) : [Butterfly-Brown.eps]
+[INFO] 2/10/18 2:05 PM:19.888 Waiting for print to finish (#3) : [Butterfly-Brown.eps]
+[INFO] 2/10/18 2:06 PM:11.072 Completed Locating & Printing (#3) : [Butterfly-Brown.eps]
+[INFO] 2/10/18 2:06 PM:11.197 Started Locating & Printing (#4) : [Butterfly-Brown.eps]
+[WARNING] 2/10/18 2:06 PM:11.197 EXCEPTION WAS HANDLED
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.<unknown>(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at java.util.Collections$SynchronizedList.get(Unknown Source)
+	at jp.mimaki.p2p.rl.win.general.ArrangementCondition.getExtendArrangementRect(ArrangementCondition.java:292)
+	at jp.mimaki.p2p.rl.win.preview.AbVrLayoutPreviewPanel._getViewerDispRange(AbVrLayoutPreviewPanel.java:447)
+	at jp.mimaki.p2p.rl.win.preview.VrLayPrintPrevPanel._disp(VrLayPrintPrevPanel.java:1042)
+	at jp.mimaki.p2p.rl.win.preview.VrLayPrintPrevPanel.forceDisp(VrLayPrintPrevPanel.java:1012)
+	at jp.mimaki.p2p.rl.win.progress.ExecProgressPreviewPanel$2.run(ExecProgressPreviewPanel.java:451)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.<unknown>(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.<unknown>(Unknown Source)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+[INFO] 2/10/18 2:12 PM:17.205 Waiting for print to finish (#4) : [Butterfly-Brown.eps]
+[INFO] 2/10/18 2:13 PM:05.409 Completed Locating & Printing (#4) : [Butterfly-Brown.eps]
+[INFO] 2/10/18 2:13 PM:05.596 Started Locating & Printing (#5) : [Butterfly-Brown.eps]
+[INFO] 2/10/18 2:19 PM:11.713 Waiting for print to finish (#5) : [Butterfly-Brown.eps]
+[INFO] 2/10/18 2:20 PM:02.897 Completed Locating & Printing (#5) : [Butterfly-Brown.eps]
+[INFO] 2/10/18 2:20 PM:03.053 Started Locating & Printing (#6) : [Butterfly-Brown.eps]
+[INFO] 2/10/18 2:26 PM:09.482 Waiting for print to finish (#6) : [Butterfly-Brown.eps]
+[INFO] 2/10/18 2:27 PM:00.665 Completed Locating & Printing (#6) : [Butterfly-Brown.eps]
