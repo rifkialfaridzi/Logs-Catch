@@ -3,11 +3,16 @@
 <html ng-app="app_filter">
 <head>
   <title>Parse Data</title>
+<<<<<<< HEAD
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <script type="text/javascript" src="js/angular.js"></script>
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/clipboard.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
+=======
+  <script type="text/javascript" src="js/angular.js"></script>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+>>>>>>> 045672bb72ba2dafdf6a76d89737f4d389afc9cb
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <style type="text/css">
     li{
@@ -17,6 +22,7 @@
 </head>
 <body>
   <div class="container" ng-controller="ini_controller">
+<<<<<<< HEAD
     <br>
     <div class="row">
       <div class="col-md-12">
@@ -46,6 +52,15 @@
     </div>  
   </div>
   <script>
+=======
+    <div class="col-md-12">
+       <input type="text" ng-model="hasil">
+         <p ng-repeat="dn in ini_datanya | filter:hasil track by $index">{{dn}}</p>         
+    </div>
+  </div>
+
+ <script>
+>>>>>>> 045672bb72ba2dafdf6a76d89737f4d389afc9cb
   
    var app = angular.module('app_filter',[]);
 
@@ -57,6 +72,7 @@
       });
     
    });
+<<<<<<< HEAD
     var clipboard = new ClipboardJS('.btn');
 
     clipboard.on('success', function(e) {
@@ -66,6 +82,8 @@
     clipboard.on('error', function(e) {
         console.log(e);
     });
+=======
+>>>>>>> 045672bb72ba2dafdf6a76d89737f4d389afc9cb
    
 
   </script>
